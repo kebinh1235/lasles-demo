@@ -1,0 +1,26 @@
+.intro {
+  margin-bottom: 95px;
+  &__container {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 42px 114px rgba(13,16,37, 0.064);
+    padding: 37px 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__item {
+    display:flex;
+    align-items: center;
+    gap: 0 37px;
+  }
+  &__info {
+    
+  }
+  &__title {
+
+  }
+  &__desc {
+
+  }
+}

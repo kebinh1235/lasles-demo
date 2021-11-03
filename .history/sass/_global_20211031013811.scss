@@ -1,0 +1,63 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+body {
+  font-family: $font;
+  color: $text-color;
+  line-height: 1;
+  font-weight: 400;
+  background: $white-color;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-color;
+  font-weight: bold;
+}
+.btn {
+  display: inline-block;
+  padding: 13px 45px;
+  border-radius: 100rem;
+  font-family: $font;
+  line-height: 1;
+  font-weight: 500;
+  cursor: pointer;
+  &__primary {
+    background: $primary-color;
+    font-weight: 700;
+    color: $white-color;
+    border-radius: 0.4rem;
+    box-shadow: 0 30px 54px -5px rgba(245, 56, 56, 0.35);
+    &:hover {
+      background: $white-color;
+      transition: all .3s linear;
+      color: $primary-color;
+      border: 1px solid;
+    }
+  }
+  &__outline {
+    background: transparent;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    font-weight: 500;
+    &:hover {
+      background: $primary-color;
+      transition: all .3s linear;
+      color: $white-color;
+    }
+  }
+}
+.heading {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: calc(50 / 35);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.text {
+  line-height: calc(30 / 16);
+}

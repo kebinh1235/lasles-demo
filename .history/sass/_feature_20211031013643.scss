@@ -1,0 +1,20 @@
+.feature {
+  padding-bottom: 130px;
+  &__container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 170px;
+    flex-wrap: wrap;
+  }
+  &__desc {
+    margin-bottom: 20px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}

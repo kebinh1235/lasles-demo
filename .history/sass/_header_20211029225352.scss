@@ -1,0 +1,23 @@
+.header {
+  padding-top: 50px;
+  &__container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__auth {
+    display:flex;
+    align-items: center;
+    &-signin {
+      
+    }
+  }
+}
+.menu {
+  display: flex;
+  align-self: center;
+  gap: 0 40px;
+  &-link {
+    color: inherit;
+  }
+}

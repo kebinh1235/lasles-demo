@@ -1,0 +1,11 @@
+.intro {
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 #0D1025 114px 0.06;
+  padding: 37px 0;
+  &__container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

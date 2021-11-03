@@ -1,0 +1,15 @@
+.hero {
+  &__container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    // flex-wrap: wrap;
+  }
+  &__content {
+    width: 100%;
+    max-width: 555px;
+  }
+  &__img {
+
+  }
+}

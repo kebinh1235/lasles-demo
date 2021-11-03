@@ -1,0 +1,24 @@
+.feature {
+  padding-bottom: 130px;
+  &__container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0 170px;
+    flex-wrap: wrap;
+  }
+  &__desc {
+    max-width: 428px;
+    margin-bottom: 20px;
+  }
+  &__title {
+    max-width: 384px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,31 @@
+.intro {
+  margin-bottom: 95px;
+  &__container {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 42px 114px rgba(13,16,37, 0.064);
+    padding: 37px 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    min-height: 200px;
+  }
+  &__item {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 37px;
+    &:nth-child(2) {
+      border-left: 2px solid #EEEFF2;
+      border-right: 2px solid #EEEFF2;
+    }
+  }
+  &__title {
+    font-size: 25px;
+    margin-bottom: 5px;
+    line-height: calc(30 / 25);
+  }
+  &__text {
+    font-size: 20px;
+    line-height: calc(30 / 20);
+  }
+}
