@@ -1,0 +1,37 @@
+.feature {
+  padding-bottom: 130px;
+  &__container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 170px;
+  }
+  &__desc {
+    max-width: 430px;
+    margin-bottom: 20px;
+  }
+  &__title {
+    max-width: 384px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px){
+  .feature {
+    &__container{
+      gap: 0 10px;
+    }
+  }
+}
+@media (max-width: 739px) {
+  .feature {
+    &__container{
+      gap: 0 10px;
+    }
+  }
+}
