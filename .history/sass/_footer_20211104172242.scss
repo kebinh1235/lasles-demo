@@ -1,0 +1,26 @@
+.footer {
+    padding-bottom: 100px;
+    &__container {
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr 1fr;
+        grid-gap: 0 126px;
+    }
+    &__desc {
+        margin: 20px 0 30px;
+    }
+    &__social-list {
+        display: flex;
+        align-items: center;
+        gap: 0 20px;
+        margin-bottom: 10px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: calc(30/18);
+        margin-bottom: 20px;
+    }
+    &__item {
+        margin-bottom: 10px;
+    }
+}

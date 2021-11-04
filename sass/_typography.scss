@@ -1,0 +1,15 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-color;
+  font-weight: bold;
+}
+.text {
+  line-height: calc(30 / 16);
+}
+.text-medium {
+  font-weight: 500;
+}

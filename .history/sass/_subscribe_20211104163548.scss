@@ -1,0 +1,22 @@
+.subscribe {
+    &__container {
+        padding: 58px 70px;
+        background: $white-color;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__content {
+        max-width: 472px;
+    }
+    &__title {
+        max-width: 372px;
+        text-align: left;
+        line-height: calc(45/35);
+    }   
+    &__btn {
+        
+    }
+
+}

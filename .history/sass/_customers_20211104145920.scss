@@ -1,0 +1,38 @@
+.customers {
+  &__container {
+  }
+  &__header {
+    max-width: 555px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__title {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  &__desc {
+    margin-bottom: 60px;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  &__item {
+  }
+  &__item-header {
+  }
+  &__item-info {
+  }
+  &__item-img {
+  }
+  &__item-name {
+  }
+  &__item-address {
+  }
+  &__item-rating {
+  }
+  &__item-desc {
+  }
+  &__item-text {
+  }
+}

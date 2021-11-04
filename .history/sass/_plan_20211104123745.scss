@@ -1,0 +1,35 @@
+.plan {
+  padding: 80px 0 150px;
+  background: $gray-light-color;
+  &__container{
+
+}
+  &__header{
+    text-align: center;
+}
+  &__desc{
+
+}
+  &__main{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+}
+  &__item{
+
+}
+  &__img{
+
+}
+  &__title{
+
+}
+  &__list{
+
+}
+  &__price{
+
+}
+  &__desc{
+
+}
+}

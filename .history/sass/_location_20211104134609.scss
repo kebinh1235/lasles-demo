@@ -1,0 +1,19 @@
+.location {
+    &__container {
+
+    }
+    &__header {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 555px;
+    }
+    &__title {
+        max-width: 384px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    &__desc {
+        font-size: 16;
+        line-height: calc(30/16);
+    }
+}

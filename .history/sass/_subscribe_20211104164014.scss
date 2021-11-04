@@ -1,0 +1,20 @@
+.subscribe {
+    margin-bottom: 67px;
+    &__container {
+        padding: 58px 70px;
+        background: $white-color;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 30px 114px 0 rgba(#0d1025,0.06);
+    }
+    &__content {
+        max-width: 472px;
+    }
+    &__title {
+        max-width: 372px;
+        text-align: left;
+        line-height: calc(45/35);
+    }   
+}
