@@ -31,13 +31,8 @@ $('.customers__list').slick({
 
 const menu = document.querySelector('.menu');
 const toggle = document.querySelector('.menu-toggle');
-const menuOverlay = document.querySelector('.menu-overlay')
+const activeShow = document.querySelector('.is-show');
 
-toggle.addEventListener('click', () => {
+toggle.addEventListener('click', function(){
   menu.classList.toggle('is-show');
-  menuOverlay.classList.toggle('is-show-overlay');
-})
-menuOverlay.addEventListener('click', () => {
-  menu.classList.toggle('is-show');
-  menuOverlay.classList.toggle('is-show-overlay');
 })
